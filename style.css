@@ -23,7 +23,7 @@ h1,h2,h3,h4.h5{
 }
 a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 body {
   background-color: var(--dark-blue1);
@@ -144,6 +144,15 @@ nav img{
     text-align: center;
     padding: 10px 20px;
 }
+.inner-section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    width: 90px;
+    margin: 50px auto;
+}
 /* ########################### SECTION 4 ############################ */
 .section4{
     color: var(--white);
@@ -257,4 +266,7 @@ footer{
 .contact-info{
     display: flex;
     flex-direction: column;
+}
+a{
+    color: var(--white);
 }
