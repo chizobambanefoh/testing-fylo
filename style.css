@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 :root {
   --dark-blue1: hsl(217, 28%, 15%);
   --dark-blue2: hsl(218, 28%, 13%);
@@ -14,16 +17,24 @@
     margin: 0;
     padding: 0;
 }
+h1,h2,h3,h4.h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
 a{
     text-decoration: none;
     color: white;
 }
 body {
   background-color: var(--dark-blue1);
+  font-family: 'Open Sans', sans-serif;
+  
 }
 nav a{
   color: var(--white);
   text-decoration: none;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
 }
 /* nav{
     display: flex;
